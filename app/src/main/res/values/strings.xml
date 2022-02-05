@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Shictionary</string>
+    <string name="drawer_open">Drawer is open</string>
+    <string name="drawer_close">Drawer is close</string>
+</resources>
