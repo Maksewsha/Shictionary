@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:src="@drawable/ic_launcher_foreground" />
+
+    <TextView
+        android:padding="@dimen/small_padding"
+        android:id="@+id/about_info_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/about_info"
+        android:theme="@style/Theme.Shictionary.TextStyle" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/mail_info_text_view"
+            android:layout_gravity="center_horizontal"
+            android:padding="@dimen/small_padding"
+            android:theme="@style/Theme.Shictionary.TextStyle"
+            android:drawableLeft="@drawable/ic_baseline_email_32"
+            android:drawablePadding="@dimen/small_padding"
+            android:text="@string/contact_info_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/telegram_info_text_view"
+            android:drawableLeft="@drawable/ic_baseline_mode_comment_32"
+            android:padding="@dimen/small_padding"
+            android:drawablePadding="@dimen/small_padding"
+            android:layout_gravity="center_horizontal"
+            android:theme="@style/Theme.Shictionary.TextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/contact_info_telegram"/>
+
+    </LinearLayout>
+
+</LinearLayout>

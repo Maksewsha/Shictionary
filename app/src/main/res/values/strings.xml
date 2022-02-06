@@ -2,4 +2,12 @@
     <string name="app_name">Shictionary</string>
     <string name="drawer_open">Drawer is open</string>
     <string name="drawer_close">Drawer is close</string>
+    <string name="search_for_words">Search for words</string>
+    <string name="favourite_words">Favourite words</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+    <string name="about_info">This is a simple English dictionary app that is using the free-to-use api\nhttps://dictionaryapi.dev/\nIf you encounter a problem with the Shictionary application, please contact me by e-mail or telegram.</string>
+    <string name="api_url">https://dictionaryapi.dev/</string>
+    <string name="contact_info_email">shish.mob@gmail.com</string>
+    <string name="contact_info_telegram">\u0040qwertya_z</string>
 </resources>
