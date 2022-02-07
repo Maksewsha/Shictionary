@@ -9,12 +9,14 @@ import androidx.drawerlayout.widget.DrawerLayout
 import androidx.fragment.app.FragmentTransaction
 import com.google.android.material.navigation.NavigationView
 import com.maksewsha.shictionary.presentation.fragments.AboutFragment
+import com.maksewsha.shictionary.presentation.fragments.WordsSearchFragment
 
 class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
 
     private lateinit var drawerLayout: DrawerLayout
     private lateinit var toolbar: Toolbar
     private lateinit var navView: NavigationView
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -32,10 +34,22 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         toggle.syncState()
 
         navView.setNavigationItemSelectedListener(this)
+
+
+        val transaction = supportFragmentManager.beginTransaction()
+        transaction.replace(R.id.main_fragment_container_view, WordsSearchFragment())
+        transaction.commit()
+        drawerLayout.close()
     }
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         when (item.itemId){
+            R.id.nav_view_item_search -> {
+                val transaction = supportFragmentManager.beginTransaction()
+                transaction.replace(R.id.main_fragment_container_view, WordsSearchFragment())
+                transaction.commit()
+                drawerLayout.close()
+            }
             R.id.nav_view_item_about -> {
                 val transaction = supportFragmentManager.beginTransaction()
                 transaction.replace(R.id.main_fragment_container_view, AboutFragment())

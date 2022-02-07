@@ -10,4 +10,6 @@
     <string name="api_url">https://dictionaryapi.dev/</string>
     <string name="contact_info_email">shish.mob@gmail.com</string>
     <string name="contact_info_telegram">\u0040qwertya_z</string>
+    <string name="input_your_word">Input your word</string>
+    <string name="search">Search</string>
 </resources>

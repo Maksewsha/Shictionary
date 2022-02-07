@@ -8,10 +8,13 @@
         <entry key="..\:/DevProjects/Shictionary/app/src/main/res/drawable/ic_baseline_favorite_24.xml" value="0.319" />
         <entry key="..\:/DevProjects/Shictionary/app/src/main/res/drawable/ic_baseline_info_24.xml" value="0.319" />
         <entry key="..\:/DevProjects/Shictionary/app/src/main/res/drawable/ic_baseline_mode_comment_24.xml" value="0.196" />
+        <entry key="..\:/DevProjects/Shictionary/app/src/main/res/drawable/ic_baseline_mode_comment_32.xml" value="0.264" />
+        <entry key="..\:/DevProjects/Shictionary/app/src/main/res/drawable/ic_baseline_play_circle_filled_24.xml" value="0.264" />
         <entry key="..\:/DevProjects/Shictionary/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.319" />
         <entry key="..\:/DevProjects/Shictionary/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1515" />
         <entry key="..\:/DevProjects/Shictionary/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
         <entry key="..\:/DevProjects/Shictionary/app/src/main/res/layout/fragment_about.xml" value="0.25" />
+        <entry key="..\:/DevProjects/Shictionary/app/src/main/res/layout/fragment_search_for_words.xml" value="0.33" />
         <entry key="..\:/DevProjects/Shictionary/app/src/main/res/layout/nav_view_header_layout.xml" value="0.358695652173913" />
         <entry key="..\:/DevProjects/Shictionary/app/src/main/res/menu/nav_view_menu.xml" value="0.14722222222222223" />
         <entry key="..\:/DevProjects/Shictionary/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1515" />
