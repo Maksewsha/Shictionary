@@ -3,7 +3,7 @@ package com.maksewsha.shictionary.data.models
 import com.google.gson.annotations.SerializedName
 import com.maksewsha.shictionary.domain.models.WordModel
 
-data class WordData(
+data class WordDataModel(
     @SerializedName("word")
     var wordName: String?,
     @SerializedName("phonetics")
